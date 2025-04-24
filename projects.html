@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Devaraj A D</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background-color: #0b090a;
+      color: #f5f3f4;
+    }
+    .projects-section {
+      padding: 4rem 2rem;
+      background: linear-gradient(to bottom, #0b090a, #161a1d);
+    }
+    .projects-section h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+      color: #e5383b;
+    }
+    .project-card {
+      display: flex;
+      flex-wrap: wrap;
+      background-color: #161a1d;
+      color: #f5f3f4;
+      margin: 2rem auto;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+      max-width: 1000px;
+    }
+    .project-description {
+      flex: 1 1 60%;
+    }
+    .project-description h2 {
+      color: #f5f3f4;
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .project-description p {
+      margin: 0.3rem 0;
+      line-height: 1.6;
+    }
+    .project-image {
+      flex: 1 1 40%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .project-image img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">Devaraj A D</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="certificates.html">Certificate</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="training.html">Training</a></li>
+      <li><a href="achievement.html">Achievement</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="projects-section">
+    <h1>Projects</h1>
+
+    <div class="project-card">
+      <div class="project-description">
+        <h2>Predictive Analytics in R</h2>
+        <p><strong>Tools:</strong> R, caret, tidyverse</p>
+        <p><strong>Date:</strong> January 2025</p>
+        <p>Built and compared three classification models — KNN, Naive Bayes, and Decision Tree — using R. Evaluated models on accuracy, precision, recall, and F1-score using a dataset with real-world classification scenarios.</p>
+      </div>
+      <div class="project-image">
+        <img src="pre.png" alt="Predictive Analytics">
+      </div>
+    </div>
+    
+    <div class="project-card">
+      <div class="project-description">
+        <h2>Amazon Prime Data Analysis</h2>
+        <p><strong>Tools:</strong> Python, Tableau, Pandas</p>
+        <p><strong>Date:</strong> December 2024</p>
+        <p>Analyzed Amazon Prime viewing data to extract insights into content consumption patterns. Created interactive dashboards to visualize trends, user preferences, and seasonal variations using Tableau.</p>
+      </div>
+      <div class="project-image">
+        <img src="Dashboard .jpg" alt="Amazon Data Analysis">
+      </div>
+    </div>
+    
+    <div class="project-card">
+      <div class="project-description">
+        <h2>Expense Tracker in Excel</h2>
+        <p><strong>Tools:</strong> Excel, Pivot Tables, SUMIFS</p>
+        <p><strong>Date:</strong> October 2024</p>
+        <p>Designed and built an Excel dashboard for personal finance management. Utilized advanced functions like SUMIFS and integrated Pivot Charts for dynamic budget tracking.</p>
+      </div>
+      <div class="project-image">
+        <img src="exp.png" alt="Excel Expense Tracker">
+      </div>
+    </div>
+    
+  </section>
+</body>
+</html>

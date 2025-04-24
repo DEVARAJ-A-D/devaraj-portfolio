@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Devaraj A D</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background-color: #0b090a;
+      color: #f5f3f4;
+      font-family: 'Inter', sans-serif;
+    }
+    .contact-section {
+      padding: 4rem 2rem;
+      background: linear-gradient(to bottom, #0b090a, #161a1d);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 3rem;
+    }
+    .contact-info, .contact-form {
+      flex: 1 1 400px;
+      background-color: #161a1d;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    }
+    .contact-info h2, .contact-form h2 {
+      color: #e5383b;
+      margin-bottom: 1.5rem;
+    }
+    .info-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+    .info-item img {
+      width: 24px;
+      margin-right: 1rem;
+    }
+    .info-item a {
+      color: #f5f3f4;
+      text-decoration: none;
+    }
+    .info-item a:hover {
+      text-decoration: underline;
+    }
+    .contact-form form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .contact-form input, .contact-form textarea {
+      padding: 0.75rem 1rem;
+      background-color: #0b090a;
+      border: 1px solid #f5f3f4;
+      border-radius: 6px;
+      color: #f5f3f4;
+      font-size: 1rem;
+    }
+    .contact-form textarea {
+      resize: vertical;
+      height: 120px;
+    }
+    .contact-form button {
+      padding: 0.75rem;
+      background-color: #e5383b;
+      color: white;
+      font-weight: bold;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .contact-form button:hover {
+      background-color: #ba181b;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">Devaraj A D</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="certificates.html">Certificate</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="training.html">Training</a></li>
+      <li><a href="achievement.html">Achievement</a></li>
+    </ul>
+  </nav>
+
+  <section class="contact-section">
+    <div class="contact-info">
+      <h2>Contact Info</h2>
+      <div class="info-item">
+        <img src="user.png" alt="Name">
+        <span>Devaraj A D</span>
+      </div>
+      <div class="info-item">
+        <img src="phone.png" alt="Phone">
+        <span>8304846343</span>
+      </div>
+      <div class="info-item">
+        <img src="email.png" alt="Email">
+        <a href="mailto:devarajad2016@gmail.com">devarajad2016@gmail.com</a>
+      </div>
+      <div class="info-item">
+        <img src="github.png" alt="GitHub">
+        <a href="https://github.com/DEVARAJ-A-D" target="_blank">github.com/DEVARAJ-A-D</a>
+      </div>
+      <div class="info-item">
+        <img src="linkedin.png" alt="LinkedIn">
+        <a href="https://linkedin.com/in/devarajad" target="_blank">linkedin.com/in/devarajad</a>
+      </div>
+    </div>
+
+    <div class="contact-form">
+      <h2>Send a Message</h2>
+      <form>
+        <input type="text" name="first-name" placeholder="First Name *" required>
+        <input type="text" name="last-name" placeholder="Last Name *" required>
+        <input type="email" name="email" placeholder="Email *" required>
+        <input type="text" name="subject" placeholder="Subject">
+        <textarea name="message" placeholder="Message"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+</body>
+</html>
